@@ -1,0 +1,7 @@
+services:
+  suez-portal:
+    build: .
+    ports:
+      - "5173:5173"
+    restart: always
+  
